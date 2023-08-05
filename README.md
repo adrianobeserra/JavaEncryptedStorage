@@ -40,14 +40,13 @@ To set up the JavaEncryptedStorage system on your local machine, follow these st
 The JavaEncryptedStorage system consists of a client and a server Java program, and they must be named `Client.java` and `Server.java`, respectively. They are started by running the commands:
 
 1. Run the server: `java Server port`
-  - Replace `port` with the desired port number where the server will listen for client connections.
   - Replace `port` with the port number where the server should listen for client connections.
 
-2. To run the client:
+2. To run the client: `java Client host port userid filename`
   - Replace `host` with the hostname or IP address of the server.
   - Replace `port` with the port number where the server is listening.
   - Replace `userid` with the client's user ID.
-  - Replace `filename` with the name of the file to be uploaded.
+  - Replace `filename` with the name of the file to be encryipted.
 
 Ensure that you keep your private key safe, as it is crucial for decryption.
 
