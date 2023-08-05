@@ -2,12 +2,23 @@
 SecureFileShare is a Java-based client-server system that facilitates secure file uploads and storage on a central server. The system employs end-to-end encryption and authentication mechanisms to ensure data confidentiality and integrity during file transfers.
 
 ## Table of Contents
+- [Prerequisites](#prerequisites)
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Prerequisites
+- Java 11: Make sure you have Java 11 or a later version installed on your system. You can check your Java version by running the following command in the terminal:
+
+```bash
+java -version
+```
+
+If Java 11 is not installed, you can download and install it from the [official Java website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or use a package manager like [SDKMAN!](https://sdkman.io/) or [Homebrew](https://brew.sh/) to install it.
+
 
 ## Introduction
 In today's digital age, data security is paramount. SecureFileShare addresses the need for a safe file-sharing environment, where users can confidently upload, save, and retrieve their files without compromising sensitive information. This project provides a Java 11-based implementation of a client-server architecture, leveraging public and private keys for end-to-end encryption and authentication.
